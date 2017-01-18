@@ -15,12 +15,6 @@ class Negociacao {
         return new Date(this._data.getTime());
     }
 
-    get dataFormatada(){
-        return this.data.getDate()
-            + '/' + (this.data.getMonth() + 1)
-            + '/' + this.data.getFullYear();
-    }
-
     get quantidade(){
         return this._quantidade;
     }
